@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
 gem 'rails', '4.1.1'
 
 gem 'sqlite3'
@@ -15,7 +14,7 @@ gem 'spring',        			group: :development
 
 
 #notdefaults
-
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'activerecord-tableless'
 gem 'compass-rails' 
 gem 'figaro'
